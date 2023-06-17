@@ -2,4 +2,5 @@ from rest_framework.pagination import LimitOffsetPagination
 
 
 class PostsPagination(LimitOffsetPagination):
-    page_size = 10
+    # default_limit = 10
+    pass
